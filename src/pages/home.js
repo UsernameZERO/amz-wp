@@ -1,7 +1,5 @@
 import * as React from 'react';
-import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Unstable_Grid2';
 import { Card, Typography } from '@mui/material';
 import Header from '../component/header';
@@ -30,8 +28,8 @@ const Home = () => {
               height: "500px",
              
             }}>
-              <a target="_blank" href= "https://amzn.to/3BJkztm" >
-                <img src={electronics} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover", cursor: "pointer"}}></img>
+              <a target="_blank" href= "https://amzn.to/3BJkztm"  rel="noreferrer">
+                <img src={electronics} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover", cursor: "pointer"}} alt="elec img"></img>
               </a>
 
               <Typography sx={{textDecoration: "none", color: "black",position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", fontSize: "5rem", left: "50%", top: "15rem", fontWeight: "bold"}}>Electronics</Typography>
@@ -39,8 +37,8 @@ const Home = () => {
           </Grid>
           <Grid xs={3}>
             <Card sx={{ height: "400px", }}>
-              <a target="_blank" href= "https://amzn.to/3uXbo4E">
-              <img src={homeDecor} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+              <a target="_blank" href= "https://amzn.to/3uXbo4E"rel="noreferrer">
+              <img src={homeDecor} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="home img .."></img>
 
               </a>
               <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "21px", fontSize: "2.7rem", top: "48rem", fontWeight: "bold", cursor: "pointer", zIndex: 1, }}>Home Decor</Typography>
@@ -48,32 +46,32 @@ const Home = () => {
           </Grid>
           <Grid xs={6}>
             <Card sx={{ height: "400px" }}>
-            <a target="_blank"  href= "https://amzn.to/3FJZCjg">
-               <img src={sports} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+            <a rel="noreferrer" target="_blank"  href= "https://amzn.to/3FJZCjg">
+               <img src={sports} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="sports img.."></img>
             </a>
             <Typography sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "12rem", fontSize: "2.7rem", top: "53rem", fontWeight: "bold"}}>Sports</Typography>
             </Card>
           </Grid>
           <Grid xs={3}>
             <Card sx={{ height: "400px" }}>
-            <a target="_blank" href= "https://amzn.to/3FJZCjg">
-              <img src={fitness} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+            <a rel="noreferrer" target="_blank" href= "https://amzn.to/3FJZCjg">
+              <img src={fitness} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="fitness img.."></img>
             </a>
               <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "21px", fontSize: "2.7rem", top: "44rem", fontWeight: "bold"}}>Fitness</Typography>
             </Card>
           </Grid>
           <Grid xs={3}>
             <Card sx={{ height: "350px" }}>
-            <a target="_blank" href= "https://amzn.to/3hB31sw">
-               <img src={babyProducts} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+            <a rel="noreferrer" target="_blank" href= "https://amzn.to/3hB31sw">
+               <img src={babyProducts} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="products img..."></img>
             </a>
             <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "3rem", fontSize: "2.7rem", top: "77rem", fontWeight: "bold"}}>Baby <br></br>Products</Typography>
             </Card>
           </Grid>
           <Grid xs={9}>
             <Card sx={{ height: "350px" }}>
-            <a target="_blank" href= "https://amzn.to/3FCsaem">
-               <img src={fashion} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+            <a rel="noreferrer" target="_blank" href= "https://amzn.to/3FCsaem">
+               <img src={fashion} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="fashion img .."></img>
             </a>
             <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "28rem", fontSize: "2.7rem", top: "73rem",  fontWeight: "bold"}}>Fashion</Typography>
             </Card>
@@ -81,8 +79,8 @@ const Home = () => {
           <Grid xs={4.5}>
             
             <Card sx={{ height: "585px" }}> 
-            <a target="_blank" href= "https://amzn.to/3v5SFDT">
-            <img src={toys} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+            <a rel="noreferrer" target="_blank" href= "https://amzn.to/3v5SFDT">
+            <img src={toys} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="toys img ..."></img>
             </a>
             <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "4rem", fontSize: "2.7rem", top: "98rem",  fontWeight: "bold"}}>Toys</Typography>
             </Card>
@@ -90,16 +88,16 @@ const Home = () => {
           <Grid xs={7.5}>
             <Grid>
               <Card sx={{ height: "350px" }}> 
-              <a target="_blank" href= "https://amzn.to/3YvM1o7">
-              <img src={autoMobiles} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+              <a rel="noreferrer" target="_blank" href= "https://amzn.to/3YvM1o7">
+              <img src={autoMobiles} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="auto mobiles img ..."></img>
               </a>
               <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "40rem", fontSize: "2.7rem", top: "86rem",  fontWeight: "bold"}}>Auto Mobiles</Typography>
               </Card>
             </Grid>
             <Grid>
               <Card sx={{ height: "213px" }}>
-              <a target="_blank" href= "https://amzn.to/3FzRL7z">
-                 <img src={groceries} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+              <a rel="noreferrer" target="_blank" href= "https://amzn.to/3FzRL7z">
+                 <img src={groceries} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="groceries img .."></img>
               </a>
               <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "5rem", fontSize: "2.7rem", top: "117rem", fontWeight: "bold"}}>Groceries</Typography>
               </Card>
@@ -107,16 +105,16 @@ const Home = () => {
           </Grid>
           <Grid xs={8.5}>
             <Card sx={{ height: "400px" }}>
-            <a target="_blank"  href= "https://amzn.to/3jdsQPO">
-               <img src={books} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+            <a rel="noreferrer" target="_blank"  href= "https://amzn.to/3jdsQPO">
+               <img src={books} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="books img .."></img>
             </a>
             <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "24rem", fontSize: "5rem", top: "134rem", fontWeight: "bold"}}>Books</Typography>
             </Card>
           </Grid>
           <Grid xs={3.5}>
             <Card sx={{ height: "400px" }}> 
-            <a target="_blank"  href= "https://amzn.to/3hEJwPB">
-            <img src={pets} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+            <a rel="noreferrer" target="_blank"  href= "https://amzn.to/3hEJwPB">
+            <img src={pets} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }} alt="pets img .."></img>
             </a>
             <Typography sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase",pl: "1rem", fontSize: "5rem", top: "125rem", fontWeight: "bold" }}>Pets</Typography>
             </Card>

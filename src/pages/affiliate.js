@@ -9,7 +9,7 @@ const Affiliate = () => {
     <>
       <Header />
       <Box sx={{padding: "2rem 7rem", height:"80vh"}}>
-      <Typography  sx= {{fontSize: "24px", fontWeight: "500", textAlign: "center", mt: "1rem", fontFamily: "monospace", fontWeight: "900"}}>Affiliate Disclosure</Typography>
+      <Typography  sx= {{fontSize: "24px", textAlign: "center", mt: "1rem", fontFamily: "monospace", fontWeight: "900"}}>Affiliate Disclosure</Typography>
       <Typography sx= {{fontWeight: "700", fontFamily: "monospace", margin: "1rem 0rem"}}>What Are Affiliate Links?</Typography>
       <Typography sx= {{ fontFamily: "monospace"}}>Purchases are made on external affiliate company websites: when a viewer click on an affiliate link located on URL to purchase an item, the buyer buys this item from the seller directly (not from URL).</Typography>
       <Typography sx= {{fontWeight: "700", fontFamily: "monospace", margin: "1rem 0rem"}}>How does Grab The Deals earn money?</Typography>

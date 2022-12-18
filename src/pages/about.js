@@ -10,7 +10,7 @@ const About = () => {
       <Header />
       <Box sx={{padding: "2rem 7rem", height:"80vh", display: "flex", flexDirection: "column", justifyContent: "center"}}>
         <Card sx={{ height: "300px", boxShadow: "none" }}>
-          <Typography sx={{ fontSize: "40px", fontWeight: "800", textAlign: "center", fontFamily: "monospace", fontWeight: "900" }}>
+          <Typography sx={{ fontSize: "40px",  textAlign: "center", fontFamily: "monospace", fontWeight: "900" }}>
             Welcome To Grab The Deals
           </Typography>
           <Typography sx={{ padding: "1rem 3rem", fontFamily: "monospace" }}>

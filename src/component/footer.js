@@ -1,7 +1,6 @@
 import { Box } from "@mui/system"
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import Grid from '@mui/material/Unstable_Grid2';
-import { Card, Typography } from "@mui/material";
+import { Typography } from "@mui/material";
 
 
 const Footer = () => {

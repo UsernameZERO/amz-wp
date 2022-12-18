@@ -10,7 +10,7 @@ const Privacy = () => {
     <>
       <Header />
      <Box sx={{padding: "2rem 7rem"}}>
-     <Typography sx= {{fontSize: "24px", fontWeight: "500", textAlign: "center", mt: "1rem", fontFamily: "monospace", fontWeight: "900"}}>Privacy Policy</Typography>
+     <Typography sx= {{fontSize: "24px", textAlign: "center", mt: "1rem", fontFamily: "monospace", fontWeight: "900"}}>Privacy Policy</Typography>
       <Typography sx= {{fontWeight: "800", fontFamily: "monospace"}}>The Privacy and Policy for <strong>grab the deal</strong></Typography>
       <Typography sx= {{ fontFamily: "monospace"}}>This privacy policy has been compiled to better serve those who are concerned with how their 
         ‘Personally Identifiable Information’ (PII) is being used online. PII, as described in US privacy law and information security, is information that can be used on its own or with other information to identify, contact, or locate a single person, or to identify an individual in context. Please read our privacy policy carefully to get a clear understanding of how we collect, use, protect or otherwise handle your Personally Identifiable Information in accordance with our website.</Typography>

@@ -10,7 +10,7 @@ const ContactUs = () => {
     <>
       <Header />
       <Box sx={{padding: "2rem 7rem", height:"80vh", display: "flex", flexDirection: "column", justifyContent: "center"}}>
-        <Typography  sx= {{fontSize: "24px", fontWeight: "500", textAlign: "center", mt: "1rem", fontFamily: "monospace", fontWeight: "900"}}>Contact Us</Typography>
+        <Typography  sx= {{fontSize: "24px", textAlign: "center", mt: "1rem", fontFamily: "monospace", fontWeight: "900"}}>Contact Us</Typography>
         <Typography sx ={{textAlign: "center", fontFamily: "monospace"}}>Welcome to Grab The Deals</Typography>
         <Typography  sx ={{textAlign: "center", fontFamily: "monospace"}}>Please email us if you have any queries about the site, advertising, or anything else.</Typography>
         <Box sx= {{display: "flex", justifyContent: "center", padding: "1rem"}}>
