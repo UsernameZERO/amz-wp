@@ -7,9 +7,9 @@ import { Card, Typography } from "@mui/material";
 const Footer = () => {
   return (
     <>
-      <Box sx={{ height: "230px", width: "100vw", display: "flex" }}>
-        <Box sx={{ display: "flex", margin: "5rem" }}>
-          <AddShoppingCartIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, height: "3rem", width: "3rem" }} />
+      <Box sx={{ height: "130px", width: "100vw", display: "flex", background:"black" }}>
+        <Box sx={{ display: "flex", margin: "2rem" }}>
+          <AddShoppingCartIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1, height: "3rem", width: "3rem", color:"white" }} />
           <Typography
             variant="h6"
             noWrap
@@ -19,30 +19,34 @@ const Footer = () => {
               mr: 2,
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
+              color: 'white',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
               textDecoration: 'none',
               paddingLeft: "1rem",
               paddingTop: "5px",
-              fontSize: "24px"
+              fontSize: "24px",
+              "&:hover": {color: "green"}
             }}
           >
             Grab The Deals
           </Typography>
 
         </Box>
-        <Box sx={{ mt: "4rem" }}>
-          <Typography sx={{ fontSize: "23px", mb: "20px" }}>
+        <Box sx={{ mt: "2.3rem" }}>
+          <Typography component="a"
+            href="/about-us" sx={{textDecoration: 'none', fontSize: "23px", mb: "20px",fontFamily: 'monospace',
+              color: 'white', "&:hover": {color: "green"} }}>
             About Us
           </Typography>
-          {/* <Typography sx={{ fontSize: "18px" }}>
-            Grab the deals Is a Products Review Website Where You Can Get Best Products Comparison And Reviews...
-          </Typography> */}
-          <Typography sx={{ fontSize: "23px", mb: "20px" }}>
+          <Typography component="a"
+            href="/privacy-policy" sx={{paddingLeft: "3rem",textDecoration: 'none',fontSize: "23px", mb: "20px", fontFamily: 'monospace',
+              color: 'white', "&:hover": {color: "green"} }}>
             Privacy Policy
           </Typography>
-          <Typography sx={{ fontSize: "23px", mb: "20px" }}>
+          <Typography component="a"
+            href="/contact-us"   sx={{paddingLeft: "3rem", textDecoration: 'none',fontSize: "23px", mb: "20px", fontFamily: 'monospace',
+              color: 'white',"&:hover": {color: "green"} }}>
             Contact Us
           </Typography>
         </Box>
