@@ -14,7 +14,6 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 
-const pages = ['About Us', 'Privacy Policy', 'Contact Us', "Affiliate Disclosure"];
 const pagess = [{ title: "About Us", link: "/about-us" },
 { title: "Privacy Policy", link: "/privacy-policy" },
 { title: "Contact Us", link: "/contact-us" },
