@@ -30,7 +30,7 @@ const Home = () => {
               height: "500px",
              
             }}>
-              <a href= "https://amzn.to/3BJkztm">
+              <a target="_blank" href= "https://amzn.to/3BJkztm" >
                 <img src={electronics} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover", cursor: "pointer"}}></img>
               </a>
 
@@ -39,14 +39,16 @@ const Home = () => {
           </Grid>
           <Grid xs={3}>
             <Card sx={{ height: "400px", }}>
-              <a href= "https://amzn.to/3uXbo4E"></a>
+              <a target="_blank" href= "https://amzn.to/3uXbo4E">
               <img src={homeDecor} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
+
+              </a>
               <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "21px", fontSize: "2.7rem", top: "48rem", fontWeight: "bold", cursor: "pointer", zIndex: 1, }}>Home Decor</Typography>
             </Card>
           </Grid>
           <Grid xs={6}>
             <Card sx={{ height: "400px" }}>
-            <a  href= "https://amzn.to/3FJZCjg">
+            <a target="_blank"  href= "https://amzn.to/3FJZCjg">
                <img src={sports} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
             <Typography sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "12rem", fontSize: "2.7rem", top: "53rem", fontWeight: "bold"}}>Sports</Typography>
@@ -54,7 +56,7 @@ const Home = () => {
           </Grid>
           <Grid xs={3}>
             <Card sx={{ height: "400px" }}>
-            <a href= "https://amzn.to/3FJZCjg">
+            <a target="_blank" href= "https://amzn.to/3FJZCjg">
               <img src={fitness} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
               <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "21px", fontSize: "2.7rem", top: "44rem", fontWeight: "bold"}}>Fitness</Typography>
@@ -62,7 +64,7 @@ const Home = () => {
           </Grid>
           <Grid xs={3}>
             <Card sx={{ height: "350px" }}>
-            <a href= "https://amzn.to/3hB31sw">
+            <a target="_blank" href= "https://amzn.to/3hB31sw">
                <img src={babyProducts} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
             <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "3rem", fontSize: "2.7rem", top: "77rem", fontWeight: "bold"}}>Baby <br></br>Products</Typography>
@@ -70,7 +72,7 @@ const Home = () => {
           </Grid>
           <Grid xs={9}>
             <Card sx={{ height: "350px" }}>
-            <a href= "https://amzn.to/3FCsaem">
+            <a target="_blank" href= "https://amzn.to/3FCsaem">
                <img src={fashion} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
             <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "28rem", fontSize: "2.7rem", top: "73rem",  fontWeight: "bold"}}>Fashion</Typography>
@@ -79,7 +81,7 @@ const Home = () => {
           <Grid xs={4.5}>
             
             <Card sx={{ height: "585px" }}> 
-            <a href= "https://amzn.to/3v5SFDT">
+            <a target="_blank" href= "https://amzn.to/3v5SFDT">
             <img src={toys} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
             <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "4rem", fontSize: "2.7rem", top: "98rem",  fontWeight: "bold"}}>Toys</Typography>
@@ -88,7 +90,7 @@ const Home = () => {
           <Grid xs={7.5}>
             <Grid>
               <Card sx={{ height: "350px" }}> 
-              <a href= "https://amzn.to/3YvM1o7">
+              <a target="_blank" href= "https://amzn.to/3YvM1o7">
               <img src={autoMobiles} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
               </a>
               <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "40rem", fontSize: "2.7rem", top: "86rem",  fontWeight: "bold"}}>Auto Mobiles</Typography>
@@ -96,7 +98,7 @@ const Home = () => {
             </Grid>
             <Grid>
               <Card sx={{ height: "213px" }}>
-              <a href= "https://amzn.to/3FzRL7z">
+              <a target="_blank" href= "https://amzn.to/3FzRL7z">
                  <img src={groceries} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
               </a>
               <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "5rem", fontSize: "2.7rem", top: "117rem", fontWeight: "bold"}}>Groceries</Typography>
@@ -105,7 +107,7 @@ const Home = () => {
           </Grid>
           <Grid xs={8.5}>
             <Card sx={{ height: "400px" }}>
-            <a  href= "https://amzn.to/3jdsQPO">
+            <a target="_blank"  href= "https://amzn.to/3jdsQPO">
                <img src={books} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
             <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "24rem", fontSize: "5rem", top: "134rem", fontWeight: "bold"}}>Books</Typography>
@@ -113,7 +115,7 @@ const Home = () => {
           </Grid>
           <Grid xs={3.5}>
             <Card sx={{ height: "400px" }}> 
-            <a  href= "https://amzn.to/3hEJwPB">
+            <a target="_blank"  href= "https://amzn.to/3hEJwPB">
             <img src={pets} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
             <Typography sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase",pl: "1rem", fontSize: "5rem", top: "125rem", fontWeight: "bold" }}>Pets</Typography>
