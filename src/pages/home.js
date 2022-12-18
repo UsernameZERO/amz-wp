@@ -34,14 +34,14 @@ const Home = () => {
                 <img src={electronics} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover", cursor: "pointer"}}></img>
               </a>
 
-              <Typography sx={{textDecoration: "none", color: "black",position: "absolute", fontFamily: "monospace", fontSize: "6rem", left: "50%", top: "15rem", fontWeight: "bold"}}>Electronics</Typography>
+              <Typography sx={{textDecoration: "none", color: "black",position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", fontSize: "5rem", left: "50%", top: "15rem", fontWeight: "bold"}}>Electronics</Typography>
             </Card>
           </Grid>
           <Grid xs={3}>
             <Card sx={{ height: "400px", }}>
               <a href= "https://amzn.to/3uXbo4E"></a>
               <img src={homeDecor} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
-              <Typography  sx={{position: "absolute", fontFamily: "monospace", pl: "21px", fontSize: "3rem", top: "48rem", fontWeight: "bold", cursor: "pointer", zIndex: 1, }}>Home Decor</Typography>
+              <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "21px", fontSize: "2.7rem", top: "48rem", fontWeight: "bold", cursor: "pointer", zIndex: 1, }}>Home Decor</Typography>
             </Card>
           </Grid>
           <Grid xs={6}>
@@ -49,7 +49,7 @@ const Home = () => {
             <a  href= "https://amzn.to/3FJZCjg">
                <img src={sports} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
-            <Typography sx={{position: "absolute", fontFamily: "monospace", pl: "12rem", fontSize: "3rem", top: "53rem", fontWeight: "bold"}}>Sports</Typography>
+            <Typography sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "12rem", fontSize: "2.7rem", top: "53rem", fontWeight: "bold"}}>Sports</Typography>
             </Card>
           </Grid>
           <Grid xs={3}>
@@ -57,7 +57,7 @@ const Home = () => {
             <a href= "https://amzn.to/3FJZCjg">
               <img src={fitness} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
-              <Typography  sx={{position: "absolute", fontFamily: "monospace", pl: "21px", fontSize: "3rem", top: "44rem", fontWeight: "bold"}}>Fitness</Typography>
+              <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "21px", fontSize: "2.7rem", top: "44rem", fontWeight: "bold"}}>Fitness</Typography>
             </Card>
           </Grid>
           <Grid xs={3}>
@@ -65,7 +65,7 @@ const Home = () => {
             <a href= "https://amzn.to/3hB31sw">
                <img src={babyProducts} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
-            <Typography  sx={{position: "absolute", fontFamily: "monospace", pl: "3rem", fontSize: "3rem", top: "77rem", fontWeight: "bold"}}>Baby <br></br>Products</Typography>
+            <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "3rem", fontSize: "2.7rem", top: "77rem", fontWeight: "bold"}}>Baby <br></br>Products</Typography>
             </Card>
           </Grid>
           <Grid xs={9}>
@@ -73,7 +73,7 @@ const Home = () => {
             <a href= "https://amzn.to/3FCsaem">
                <img src={fashion} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
-            <Typography  sx={{position: "absolute", fontFamily: "monospace", pl: "28rem", fontSize: "3rem", top: "73rem",  fontWeight: "bold"}}>Fashion</Typography>
+            <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "28rem", fontSize: "2.7rem", top: "73rem",  fontWeight: "bold"}}>Fashion</Typography>
             </Card>
           </Grid>
           <Grid xs={4.5}>
@@ -82,7 +82,7 @@ const Home = () => {
             <a href= "https://amzn.to/3v5SFDT">
             <img src={toys} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
-            <Typography  sx={{position: "absolute", fontFamily: "monospace", pl: "4rem", fontSize: "3rem", top: "98rem",  fontWeight: "bold"}}>Toys</Typography>
+            <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "4rem", fontSize: "2.7rem", top: "98rem",  fontWeight: "bold"}}>Toys</Typography>
             </Card>
           </Grid>
           <Grid xs={7.5}>
@@ -91,7 +91,7 @@ const Home = () => {
               <a href= "https://amzn.to/3YvM1o7">
               <img src={autoMobiles} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
               </a>
-              <Typography  sx={{position: "absolute", fontFamily: "monospace", pl: "40rem", fontSize: "3rem", top: "86rem",  fontWeight: "bold"}}>Auto Mobiles</Typography>
+              <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "40rem", fontSize: "2.7rem", top: "86rem",  fontWeight: "bold"}}>Auto Mobiles</Typography>
               </Card>
             </Grid>
             <Grid>
@@ -99,7 +99,7 @@ const Home = () => {
               <a href= "https://amzn.to/3FzRL7z">
                  <img src={groceries} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
               </a>
-              <Typography  sx={{position: "absolute", fontFamily: "monospace", pl: "5rem", fontSize: "3rem", top: "117rem", fontWeight: "bold"}}>Groceries</Typography>
+              <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "5rem", fontSize: "2.7rem", top: "117rem", fontWeight: "bold"}}>Groceries</Typography>
               </Card>
             </Grid>
           </Grid>
@@ -108,7 +108,7 @@ const Home = () => {
             <a  href= "https://amzn.to/3jdsQPO">
                <img src={books} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
-            <Typography  sx={{position: "absolute", fontFamily: "monospace", pl: "24rem", fontSize: "5rem", top: "134rem", fontWeight: "bold"}}>Books</Typography>
+            <Typography  sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase", pl: "24rem", fontSize: "5rem", top: "134rem", fontWeight: "bold"}}>Books</Typography>
             </Card>
           </Grid>
           <Grid xs={3.5}>
@@ -116,7 +116,7 @@ const Home = () => {
             <a  href= "https://amzn.to/3hEJwPB">
             <img src={pets} style={{ width: "-webkit-fill-available", height: "100%", objectFit: "cover" }}></img>
             </a>
-            <Typography sx={{position: "absolute", fontFamily: "monospace",pl: "1rem", fontSize: "5rem", top: "125rem", fontWeight: "bold" }}>Pets</Typography>
+            <Typography sx={{position: "absolute", fontFamily: "fangsong",textTransform: "uppercase",pl: "1rem", fontSize: "5rem", top: "125rem", fontWeight: "bold" }}>Pets</Typography>
             </Card>
           </Grid>
         </Grid>
